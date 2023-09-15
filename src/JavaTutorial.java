@@ -7,7 +7,7 @@ public class JavaTutorial {
 
         System.out.print("Enter the percentage: ");
         double percentage = scanner.nextDouble();
-
+        ////////////////////////////////////////////////
         char grade;
 
         if (percentage > 90) {
@@ -17,10 +17,9 @@ public class JavaTutorial {
         } else if (percentage > 65) {
             grade = 'C';
         } else {
-            grade = 'D'; 
+            grade = 'D';
         }
         System.out.println("The grade is: " + grade);
         scanner.close();
     }
 }
-
